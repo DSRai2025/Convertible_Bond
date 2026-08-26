@@ -5,7 +5,7 @@ import event_study as es
 import delta as dl
 
 # set your real contact so SEC doesn't 403 you
-ced.SEC_UA = "Convert Event Study - dev.singhrai25@imperial.ac.uk"
+ced.SEC_UA = "Convert Event Study - firstname.second@imperial.ac.uk"
 ced._session.headers.update({"User-Agent": ced.SEC_UA})
 
 # 1. events from EDGAR
